@@ -1,0 +1,4 @@
+SELECT id, imie, nazwisko FROM `personel` WHERE status='policjant'; 
+SELECT typ, COUNT(id) as LiczPojazdow FROM `pojazdy` GROUP by typ; 
+SELECT personel.id, personel.nazwisko FROM rejestr, personel WHERE personel.id != rejestr.id_personel; 
+INSERT INTO rejestr (data, id_personel, id_pojazd) VALUES(CURRENT_DATE(), 1, 14); 
