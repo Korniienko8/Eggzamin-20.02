@@ -1,23 +1,25 @@
 * {
     font-family: Tahoma;
 }
-header, footer {
+.header, .footer {
     background-color: Maroon;
     color: white;
     padding: 10px;
 }
-#left, #right {
+.left, .right {
     width: 50%;
     height: 500px;
     float: left;
 }
 
-#left {
+.left {
     background-color: LightSalmon;
+    float: left;
 }
 
-#right {
+.right {
     background-color: DarkSalmon;
+    float: right;
 }
 
 h1, h2, h3 {
@@ -27,18 +29,21 @@ h1, h2, h3 {
 
 table, th, td {
     border: 1px solid Maroon;
+    border-collapse: collapse;
 }
 
 
-table {
+.table {
     width: 85%;
-    border-collapse: collapse;
+    border-collapse:  collapse;
     margin-left: auto;
     margin-right: auto;
+ 
+
 }
 
 ol {
-    list-style-type: none;
+    list-style-type: none
 }
 
 button {
